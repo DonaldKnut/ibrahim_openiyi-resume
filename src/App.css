@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* ======== VARIABLES CSS ========*/
+:root {
+  --header-height: 3rem;
+  /* ========== COLORS ============== */
+  /* Color mode HSL (hue, saturation, lightness) */
+
+  --hue: 46;
+  --sat: 90%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(---hue), var(--sat), 0%);
+  --title-text-color: hsl(var(---hue), var(--sat), 46%);
+  --body-color: hsl(var(---hue), var(--sat), 50%);
+  --container-color: #ffffff;
+  /* 
+  =====FONT & TYPOGRAPHY======== */
+  --body-font: "Lexend Deca";
+
+  /* .5rem = 8px / 1rem = 16px */
+
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.2rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.75rem;
+  --small-font-size: 0.815rem;
+  --small-font-size: 0.815rem;
+
+  /* ========= Font Weight ========== */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* ======== Margins Bottom ========= */
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /* ======= z-index ======== */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-weight: bold;
+  font-size: var(--normal-font-size);
+}
+
+/* body{
+  background: linear-gradient(290deg, #ff0000, hsl(38, 100%, 50%));
+} */
+
+h1,
+h2,
+h3 {
+  color: hsl(46deg 100% 15%);
+  font-weight: var(--font-semi-bold);
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 350px;
+  height: auto;
+}
+
+.dafont {
+  font-size: 32px;
+  color: #977c02;
+  transition: all 0.5s;
+}
+
+/* ============= Reusable CSS Classes ============ */
+
+.section {
+  padding: 6rem 0 2rem;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: 4rem;
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+
+/* ====== Layout ======== */
+
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* ======= Buttons ========= */
+.button {
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 11px 34px;
+  border-radius: 4px;
+  font-weight: var(--font-medium);
+  transition: all 0.4s;
+}
+
+.button:hover {
+  color: #27e221;
+  border: 1px solid #0e0d0b;
+  background: none
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+svg:hover{
+  color: #0e0d0b;
+}
+
+.dafont:hover {
+  color: #fdeeda;
+}
+
+
+.about__box{
+  border: none;
+}
+
+/* Responsive Typography */
+@media screen and (max-width: 992px) {
+  :root {
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h1-font-size: 1.25rem;
+    --h1-font-size: 1rem;
+
+    --normal-font-size: 0.936rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}
+
+
+
+
+/* ======= Breakpoints ========== */
+
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+}
+
+/* For Medium Devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 710px) {
+  img {
+    max-width: 207px;
+  }
+  body{
+    margin:0 0 var(--header-height) 0;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .home__scroll {
+    display: none;
+  }
+
+  img {
+    max-width: 288px;
+  }
+}
+
+@media screen and (max-width: 629px) {
+  img {
+    max-width: 241px;
+    height: auto;
+  }
+}
+
+/* For Small Devices */
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+}

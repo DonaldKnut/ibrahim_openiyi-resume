@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* ======== VARIABLES CSS ========*/
+:root {
+  --header-height: 3rem;
+  /* ========== COLORS ============== */
+  /* Color mode HSL (hue, saturation, lightness) */
+  max-height: 1vh;
+  --hue: 46;
+  --sat: 90%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(---hue), var(--sat), 0%);
+  --title-text-color: hsl(var(---hue), var(--sat), 46%);
+  --body-color: hsl(var(---hue), var(--sat), 50%);
+  --container-color: #ffffff;
+  /* 
+  =====FONT & TYPOGRAPHY======== */
+  --body-font: "Lexend Deca";
+
+  /* .5rem = 8px / 1rem = 16px */
+
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.2rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.75rem;
+  --small-font-size: 0.815rem;
+  --small-font-size: 0.815rem;
+
+  /* ========= Font Weight ========== */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* ======== Margins Bottom ========= */
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /* ======= z-index ======== */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+
+.home__title-two{
+    font-family: "qwigley";
+    color: #60ff5b;
+    text-align: center;
+}
+
+.footer{
+    background: linear-gradient(45deg, #0f2e02, #78530e);
+}
+
+.footer__container{
+    padding: 2rem 0 6rem;
+}
+
+.footer__link{
+    color: #a7bda7;
+    transition: all 0.4s;
+}
+
+.footer__link:hover{
+    color: #60ff5b;
+}
+
+.footer__links{
+    margin: 22px 0;
+}
+
+.ryryte{
+    font-size: 23px;
+}
+
+.hethtky{
+    font-size: 19px;
+}
+
+
+/* For Small Devices */
+@media screen and (max-width: 990px){          
+    .footer__links{
+        text-align: center;
+    }
+    .footer__socials{
+        text-align: center;
+    }
+
+  }

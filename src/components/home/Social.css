@@ -1,0 +1,10 @@
+.dafont{
+    font-size: 35px;
+    color: #977c02;
+}
+
+.dafont:hover{
+    color: black;
+    border: 1px solid #977c02;
+    background-color: antiquewhite;
+  }

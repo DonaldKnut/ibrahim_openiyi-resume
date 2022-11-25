@@ -1,0 +1,40 @@
+.testimonial__container{
+    width: 750px;
+}
+
+.testimonial__card{
+    background: linear-gradient(230deg, #977c02e8, #4eab4be0);
+    /* background: linear-gradient(230deg, #977c02e8, #4eab4be0); */
+    padding: 1.5rem 2rem;
+    border-radius: 19px;
+}
+
+.testimonial__image{
+    height: 87px;
+    width: 86px;
+    border-radius: 85px;
+}
+
+.testimonial__description{
+    color: rgb(255, 255, 255);
+}
+
+.testimonial__name{
+    color: #a1ff0a;
+}
+
+
+/* ======= BREAKPOINTS ======== */
+@media screen and (max-width: 992px) {
+    .testimonial__container{
+        width: initial;
+    }
+
+    .testimonial__card{
+        padding: 1.25rem 1.5rem;
+    }
+}
+
+
+
+
