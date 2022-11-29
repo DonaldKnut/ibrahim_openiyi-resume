@@ -1,5 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import "./data.css";
+
 
 const Data = () => {
   return (
@@ -11,11 +13,12 @@ const Data = () => {
             options={{
               strings: [
                 "JavaScript Developer",
-                "Web Developer",
+                "Web Frontend Developer",
                 "Software Developer",
                 "Blockchain Developer",
                 "UX Designer",
                 "Artist",
+                "Graphics Designer"
               ],
               autoStart: true,
               loop: true,

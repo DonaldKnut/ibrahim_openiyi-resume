@@ -163,6 +163,11 @@ svg:hover{
     .about__info{
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .home__description {
+        width: 87%;
+        font-size: 14px;
+    }
 }
 
 

@@ -48,11 +48,11 @@ const Qualification = () => {
             <div>
               <h3 className="qualification__title job-color"> Web Development</h3>
               <span className="qualification__subtitle">
-                Sierra Leone - Institute
+                CustomerWorth LTD - Sierra Leone
               </span>
               <div className="qualification__calender">
                 <i class="uil uil-calendar-alt"></i>
-                2021 - Present
+                November 2021 - June 2022
               </div>
             </div>
 
@@ -71,18 +71,18 @@ const Qualification = () => {
                 <div>
                 <h3 className="qualification__title job-color">Artist</h3>
                 <span className="qualification__subtitle">
-                    Nigeria - Institute
+                    Philia Technologioes - Nigeria
                 </span>
                 <div className="qualification__calender">
                     <i class="uil uil-calendar-alt"></i>
-                    2021 - Present
+                    August 2018 - December 2020
                 </div>
                 </div>
             </div>
             <div className="qualification__data">
                 <div>
                 <div></div>
-                <h3 className="qualification__title job-color">UX Expert</h3>
+                <h3 className="qualification__title job-color">UX Designer</h3>
                 <span className="qualification__subtitle">
                     Nigeria - Institute
                 </span>
@@ -106,11 +106,11 @@ const Qualification = () => {
                 <div>
                 <h3 className="qualification__title job-color">Graphics Designer</h3>
                 <span className="qualification__subtitle">
-                    Nigeria - Institute
+                    Freelance
                 </span>
                 <div className="qualification__calender">
                     <i class="uil uil-calendar-alt"></i>
-                    2018 - Present
+                    May 2018 - June 2020
                 </div>
                 </div>
             </div>

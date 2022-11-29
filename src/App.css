@@ -75,7 +75,7 @@ textarea {
 h1,
 h2,
 h3 {
-  color: hsl(46deg 100% 15%);
+  color: #4d3b00;
   font-weight: var(--font-semi-bold);
 }
 
@@ -146,12 +146,12 @@ img {
   padding: 11px 34px;
   border-radius: 4px;
   font-weight: var(--font-medium);
-  transition: all 0.4s;
+  transition: all 0.6s;
 }
 
 .button:hover {
   color: #27e221;
-  border: 1px solid #0e0d0b;
+  border: 2px solid #4d3b00;
   background: none
 }
 
@@ -165,7 +165,7 @@ svg:hover{
 }
 
 .dafont:hover {
-  color: #fdeeda;
+  color: #27e221;
 }
 
 
@@ -227,6 +227,13 @@ svg:hover{
     max-width: 241px;
     height: auto;
   }
+}
+
+
+@media screen and (max-width: 488px){
+      .button--flex {
+        font-size: 11px;
+    }
 }
 
 /* For Small Devices */

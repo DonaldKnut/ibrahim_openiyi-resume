@@ -1,0 +1,13 @@
+.home__description{
+    width: 87%;
+    font-size: 16px;
+    color: #977c02;
+}
+
+
+@media (min-width: 468px) {
+    .home__description {
+        width: 87%;
+        font-size: 14px;
+    }
+}

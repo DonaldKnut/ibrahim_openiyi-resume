@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <section className="about section" id="about">
-        <h2 className="section__title">About</h2>
+        <h2 className="section__title">Bio</h2>
         <span className="section__subtitle">My Introduction</span>
 
         <div className="about__container container grid">
@@ -19,7 +19,7 @@ const About = () => {
             <Info />
             <p className="about__description">
               I create aesthetically pleasing web pages with
-              UX/UI Interfaces, i have 2 and a half years of experience. and
+              UX/UI Interfaces, i've got 2 and a half years of experience. and
               clients i've worked with, hold me in the highest regard based on
               the projects i've worked on.
             </p>

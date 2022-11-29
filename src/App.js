@@ -13,7 +13,7 @@ import Scrollup from "./components/scrollup/Scrollup";
 
 const App = () => {
     return <>
-        <Header />
+        <Header /> 
         <main className="main">
             <Home />
             <About />

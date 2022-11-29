@@ -210,15 +210,15 @@ const Services = () => {
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      Create website layout/user interface by using standard
-                      HTML/CSS practices
+                      Create website layout plus user interfaces by using standard
+                      HTML, CSS and Javascript practices
                     </p>
                   </li>
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      Stay plugged into emerging technologies/industry trends
-                      and apply them into operations and activities
+                      Stay plugged into emerging technologies and industry trends
+                      to apply principles gained from them into operations and activities
                     </p>
                   </li>
                   <li className="services__modal-service">

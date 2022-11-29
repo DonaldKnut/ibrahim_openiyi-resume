@@ -21,6 +21,15 @@ const Frontend = () => {
                             <i class="bx bx-badge-check"></i>
                             <div>
                                 <h3 className="skills__name">
+                                    CSS
+                                </h3>
+                                <span className="skills_level">Advanced</span>
+                            </div>
+                        </div>
+                        <div className="skills__data">
+                            <i class="bx bx-badge-check"></i>
+                            <div>
+                                <h3 className="skills__name">
                                     Adobe XD & Figma
                                 </h3>
                                 <span className="skills_level">Advanced</span>
@@ -30,7 +39,16 @@ const Frontend = () => {
                             <i class="bx bx-badge-check"></i>
                             <div>
                                 <h3 className="skills__name">
-                                    CSS
+                                    Adobe illustrator
+                                </h3>
+                                <span className="skills_level">Advanced</span>
+                            </div>
+                        </div>
+                        <div className="skills__data">
+                            <i class="bx bx-badge-check"></i>
+                            <div>
+                                <h3 className="skills__name">
+                                    Adobe Photoshop
                                 </h3>
                                 <span className="skills_level">Advanced</span>
                             </div>
@@ -60,6 +78,15 @@ const Frontend = () => {
                             <div>
                                 <h3 className="skills__name">
                                     React
+                                </h3>
+                                <span className="skills_level">Experienced</span>
+                            </div>
+                        </div>
+                        <div className="skills__data">
+                            <i class="bx bx-badge-check"></i>
+                            <div>
+                                <h3 className="skills__name">
+                                    Procreate
                                 </h3>
                                 <span className="skills_level">Experienced</span>
                             </div>
